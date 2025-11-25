@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+}
+
+.divnavbar{
+    display: flex;
+    gap: 50px;
+        
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#divicon{
+    position: absolute;
+    right: 50px;
+    display: flex;
+    gap: 50px;
+}
+i{
+    background-color: rgb(236, 29, 29);
+    font-size: 30px;
+    border-radius: 8px;
+}
+#name{
+    position: absolute;
+    left: 25px;
+    font-size: 27px;
+    font-family: cursive;
+}
