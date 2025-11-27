@@ -46,7 +46,12 @@ i:hover{
     header{
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
+        padding: 10px;
+    }
+    .divancher{
+        
+        gap: 30px;
     }
     .divicon{
         display: none;
