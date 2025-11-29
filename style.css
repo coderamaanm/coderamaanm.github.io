@@ -42,7 +42,7 @@ i{
     color: brown 
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     header{
         flex-direction: column;
         align-items: center;
@@ -107,7 +107,7 @@ i{
 i:hover{
     transform: scale(1.5);
 }
-@media (max-width:800px){
+@media (max-width:1000px){
     .divphotocontent1{
         padding: 20px 0px 5px 20px;
         flex-direction: column;

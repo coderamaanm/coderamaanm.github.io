@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: arial;
+    box-sizing: border-box ;
+
+}
+header{
+    padding: 5px 10px;
+    background-color: rgba(217, 83, 5, 0.908);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nev-box1{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#amazon-logo{
+    width: 100px;
+    height: 30px;
+    color: aliceblue;
+}
+/* location-box2 */
+.nev-box2{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+#span1{
+    padding-left: 18px;
+    font-size: 0.7rem;
+}
+#icon1{
+    font-size: 1rem;
+
+}
+#span2{
+   font-size: 0.9rem;
+}
+/* searchbar-box3 */
+.nev-box3{
+    padding: 10px 4px 10px 3px;
+    width: 696.5px;
+    height: 40px;
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.div-select1{
+    width: 45px;
+    height: 40px;
+}
+#select1{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #3b3b3b;
+
+}
+#input1{
+    width: 100%;
+    height: 40.5px;
+    border: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 1.15rem;
+    text-transform: capitalize;
+}
+
+.div-icon2{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* sign-box4 */
+.nev-box4{
+    text-decoration: none;
+    color: aliceblue;
+}
+.div-sign1{
+    width: 100px;
+}
+#sign1{
+    font-size: 0.7rem;
+    text-transform: capitalize;
+}
+#account1{
+    text-transform: capitalize;
+    font-size: 0.9;
+}
+/* retums-box5 */
+.nev-box5{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+#retums{
+    font-size: 0.7rem;
+}
+#order{
+    font-size: 0.9rem;
+}
+/* cart-box6 */
+.nev-box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+#cart-icon{
+    font-size: 2rem;
+}
+.div-cart1{
+    padding-top: 20px;
+}
+#cart1{
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+/* navber complets */
+/* new-second-ber  */
+.secend-nev{
+    padding-left: 11px;
+    background-color: #A24900;
+    display: flex;
+    align-items: center;
+}
+.secend-nev-box1{
+    width: 58px;
+    height: 35px;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+#secend-nev-icon{
+    font-size: 1.2rem;
+    color: black;
+
+}
+#secend-nev-span{
+     font-size: 0.9rem
+
+}
+.secend-nev-box2{
+    width: 1012.58px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 400px;
+    align-items: center;
+}
+.nev2-box2-div{
+    padding: 0px 5px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+#box2-div-a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
