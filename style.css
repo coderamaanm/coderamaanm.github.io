@@ -213,8 +213,28 @@ img:hover{
         font-size: 22.5px;
     }
 }
+/* skills-section started */
+.section-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#skill-name{
+    font-size: 50px;
+    text-transform: uppercase;
+}
 
+.div-skills{
+    width: 90%;
+    height: 1000px;
+    margin-top: 80px;
+    padding: 50px;
+    border: 1px solid white;
+    text-align: center;
+}
+#name-of-skill-1{
+    font-size: 90px;
+    margin: auto;
 
-
-
-
+}
