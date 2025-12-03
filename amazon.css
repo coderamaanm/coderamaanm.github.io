@@ -5,6 +5,9 @@
     box-sizing: border-box ;
 
 }
+a{
+    text-decoration: none;
+}
 header{
     padding: 5px 10px;
     background-color: rgba(217, 83, 5, 0.908);
@@ -210,3 +213,94 @@ header{
     text-transform: capitalize;
     font-size: 0.8rem;
 }
+/* nev-secend-complets */
+/* hero-section-started */
+.hero-div{
+    height: 350px;
+    background-image: url(amazon-img/amazon\ background\ img.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-content{
+    font-size: 0.8rem;
+    width: 90%;
+    height: 40px;
+    padding: 10px 14px;
+    background-color: #1d2021;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    
+    
+}
+.bye-contener{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgba(39, 53, 33, 0.678);
+}
+.div-bye-item{
+    width: 300px;
+    height: 420px;
+    background-color: #181a1b;
+    padding: 20px 0px 15px 0px;
+    
+}
+.div-bye-item-h2{
+   padding: 0px 20px;
+   margin-bottom: 10px;
+   font-size: 15px;
+}
+.div-bye-item-img-box{
+    width: 180px;
+    height: 151px;
+    display: flex;
+    width: 250px;
+    margin: auto;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+.img-box-1{
+    width: 135;
+    height: 130px;
+    background-size: cover;
+}
+.img-1{
+    width: 125px;
+    height: 110px;
+}
+/* .img-text{
+    color: aqua; */
+
+
+#span-1{
+    width: 180px;
+    height: 16px;
+    font-size: 13px;
+
+}
+.new-div-img-1{
+    width: 178px;
+    height: 280px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#img-new{
+    width: 260px;
+    height: 290px;
+}
+
+
+
+#big{
+    height: 1000px;
+}
+
+
+
+
