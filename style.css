@@ -42,7 +42,7 @@ i{
     color: brown 
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1100px){
     header{
         flex-direction: column;
         align-items: center;
@@ -107,7 +107,7 @@ i{
 i:hover{
     transform: scale(1.5);
 }
-@media (max-width:1000px){
+@media (max-width:1100px){
     .divphotocontent1{
         padding: 20px 0px 5px 20px;
         flex-direction: column;
@@ -190,7 +190,7 @@ img:hover{
     transform: scale(0.6);
 
 }
-@media (max-width:1000px){
+@media (max-width:1100px){
     section{
         flex-direction: column;
         align-items: center;
@@ -272,4 +272,64 @@ img:hover{
 .skills-name-all-2{
     font-size: 25px;
     text-transform: capitalize;
+}
+@media (max-width:900px){
+    .div-skills{
+        margin-top: 20px;
+    }
+    #skill-name{
+        font-size: 40px;
+    }
+    .name-of-skill-1{
+        font-size: 60px;
+    }
+    .div-skills-papa{
+        gap: 50px;
+    }
+    .skills-name-all{
+        font-size: 20px;
+    }
+    .name-of-skill-2nd{
+        font-size: 60px;
+    }
+    .skills-name-all-2{
+        font-size: 20px;
+    }
+    .div-skills-papa-2{
+        gap: 80px;
+    }
+}
+@media (max-width:480px){
+    
+    .div-skills{
+        margin: 0px;
+        width: 220px;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .name-of-skill-1{
+        font-size: 27px;
+        text-align: left;
+    }
+    .div-skills-papa{
+        gap: 20px;
+        flex-direction: column;
+        padding: 0%;
+    }
+    .skills-name-all{
+        font-size: 15px;
+    }
+    .div-line-1{
+        display: none;
+    }
+    .name-of-skill-2nd{
+        font-size: 27px;
+    }
+    .div-skills-papa-2{
+        gap: 20px;
+        flex-direction: column;
+    }
+    .skills-name-all-2{
+        font-size: 15px;
+    }
 }
