@@ -223,18 +223,53 @@ img:hover{
 #skill-name{
     font-size: 50px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .div-skills{
     width: 90%;
     height: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
     margin-top: 80px;
     padding: 50px;
     border: 1px solid white;
-    text-align: center;
-}
-#name-of-skill-1{
-    font-size: 90px;
-    margin: auto;
 
+}
+.name-of-skill-1{
+    font-size: 90px;
+}
+.div-skills-papa{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-left: 100px;
+
+}
+.skills-name-all{
+    font-size: 20px;
+    text-transform: capitalize;
+
+
+}
+.div-line-1{
+    width: 1px;
+    height: 150px;
+    background-color: white;
+}
+.name-of-skill-2nd{
+    font-size: 90px;
+    margin-bottom: 50px ;
+}
+.div-skills-papa-2{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    
+}
+.skills-name-all-2{
+    font-size: 25px;
+    text-transform: capitalize;
 }
