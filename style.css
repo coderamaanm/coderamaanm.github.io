@@ -334,3 +334,94 @@ img:hover{
         font-size: 15px;
     }
 }
+.section-Experience{
+    padding: 50px 95px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#Experience{
+    font-size: 70px;
+    text-transform: capitalize;
+    margin: auto;
+}
+@media (max-width:480px){
+    #Experience{
+        font-size: 27px;
+    }
+}
+
+#section-contect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#contect-name{
+    text-align: center;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#contect-form{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid white;
+    gap: 15px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.label-name{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.input-tag-form{
+    width: 550px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px white;
+
+}
+.label-name-2{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#input-tag-form-2{
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px white;
+
+}
+#contect-send-button{
+    width: 64px;
+    height: 38px;
+    padding: 12px 20px;
+    background-color: #cc7000;
+    text-decoration-color: initial;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:500px){
+    #contect-name{
+        font-size: 27px;
+    }
+    #contect-form{
+        gap: 10px;
+        border-radius: 8px;
+    }
+    .input-tag-form{
+        width: 200px;
+        height: 20px;
+    }
+    #input-tag-form-2{
+        width: 200px;
+        height: 250px;
+    }
+
+}
+
