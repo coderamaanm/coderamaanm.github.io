@@ -3,6 +3,7 @@
     padding: 0%;
     font-family: arial;
     box-sizing: border-box ;
+    color: white;
 
 }
 hr{
@@ -530,6 +531,16 @@ ul{
 }
 li{
     padding-bottom: 5px;
+}
+/* div-last-box-strated */
+.div-footer-last-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-footer-logo img {
+    width: 150px;
+    height: 45px;
 }
 
 
